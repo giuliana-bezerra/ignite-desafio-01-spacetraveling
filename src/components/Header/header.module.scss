@@ -1,1 +1,15 @@
-// TODO
+.container {
+  height: 6.563rem;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 6.563rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+  max-width: 1120px;
+  left: 23.125rem;
+  cursor: pointer;
+}

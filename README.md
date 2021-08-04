@@ -28,13 +28,14 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [TypeScript](https://www.typescriptlang.org/)
 - [Next.js](https://nextjs.org)
 - [Prismic CMS](http://prismic.io/)
+- [Utteranc](https://utteranc.es/)
 
 ## 💻 Projeto
 
 O Spacetraveling é uma aplicação de blog para praticar o uso de SSG e SSR no Next.js utilizando também o Prismic CMS. Projeto submetido como o desafio 01 do Ignite de ReactJS.
 
 ## 💡 Solução
-O desafio foi implementar a listagem de posts do blog consultando o Prismic CMS e utilizando o Next para carregar os posts de forma estática.
+O desafio foi implementar a listagem de posts do blog consultando o Prismic CMS e utilizando o Next para carregar os posts de forma estática. Além disso, o projeto possui suporte a comentários sobre os posts com o Utteranc, paginação dos resultados, e preview dos documentos do Prismic.
 
 ## 🚀 Como executar
 

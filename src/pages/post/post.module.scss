@@ -2,6 +2,11 @@
   max-width: 1120px;
   margin: 0 auto;
   padding: 0 2rem;
+
+  hr {
+    opacity: 0.1;
+    border: 1px solid var(--body);
+  }
 }
 
 .content {
@@ -32,6 +37,11 @@
   svg {
     margin-right: 0.5rem;
   }
+}
+
+.postInfo {
+  width: 100%;
+  margin-top: 1.5rem;
 
   span {
     font-size: 0.875rem;
@@ -39,11 +49,12 @@
     color: var(--info);
     margin-right: 1.5rem;
   }
-}
 
-.postInfo {
-  width: 100%;
-  margin-top: 1.5rem;
+  .editedAt {
+    display: block;
+    margin-top: 1rem;
+    font-style: italic;
+  }
 }
 
 .body {
@@ -54,10 +65,30 @@
     text-align: justify;
     margin-bottom: 2rem;
   }
+}
 
-  div {
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+
+  p {
+    color: var(--heading);
     font-size: 1.125rem;
-    color: var(--body);
-    text-align: justify;
+    cursor: pointer;
+
+    p {
+      color: var(--highlight);
+      font-size: 1.125rem;
+      font-size: 1rem;
+      font-weight: 600;
+    }
+
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(0.8);
+    }
   }
 }

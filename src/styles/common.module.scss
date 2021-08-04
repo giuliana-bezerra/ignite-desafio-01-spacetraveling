@@ -1,1 +1,23 @@
-// TODO
+.previewButton {
+  display: flex;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  background-color: var(--heading);
+  height: 3.625rem;
+  border-radius: 0.25rem;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  transition: filter 0.2s;
+
+  &:hover {
+    filter: brightness(0.8);
+  }
+
+  a {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--background);
+  }
+}
